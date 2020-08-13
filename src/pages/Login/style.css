@@ -1,0 +1,56 @@
+#login-page {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#brand-rectangle {
+    background: var(--color-primary);
+}
+
+#brand-rectangle .logo-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20.0rem;
+    
+}
+
+#brand-rectangle .logo-container img {
+    height: 10.0rem;
+}
+
+#brand-rectangle .logo-container h2 {
+    font-weight: 500;
+    display: flex;
+    width: 40%;
+    font-size: 2.4rem;
+    line-height: 3.0rem;
+    text-align: initial;
+    margin-left: 17.0rem;
+    color: var(--color-text-in-primary);
+}
+
+#form-rectangle {
+    background-color: white;
+}
+
+#form-rectangle  {
+
+}
+
+#form-rectangle .login-form h2 {
+    font: 600 2.0rem Poppins;
+    font-size: 2.4rem;
+    color:  var(--color-text-title);
+    margin-top: 12.0rem;
+    margin-left: 15.0rem;
+}
+
+#form-rectangle .input-container .input-block {
+    margin-left: 15.0rem;
+    width: 50%;
+}
+
+
